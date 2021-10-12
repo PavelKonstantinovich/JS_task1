@@ -12,13 +12,12 @@ if (firstNum == secondNum) {
 
 // // Задания #2
 
-let number = 100
-number = prompt('Введите число от 1 до 100')
+let gap = prompt('Введите число от 1 до 100')
 let sum = 0
-for (let i = 0; i < number; i++) {
-  sum = i+1
+for (let i = 0; i <= gap; i++) {
+  sum = i ** 2
+  console.log(sum)
 }
-sum = sum*sum
 alert(sum)
 
 // Задания #3
