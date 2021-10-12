@@ -18,7 +18,6 @@ for (let i = 0; i <= gap; i++) {
   sum = i ** 2
   console.log(sum)
 }
-alert(sum)
 
 // Задания #3
 
